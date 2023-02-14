@@ -6,8 +6,9 @@
 convention_id: "NRCS:CEMA216-soil-test:1.0"
 dependencies:
   - farm:farm_lab_test
-inherits:
+inherits_from:
   - farmOS:soil-test:1.0
+related_conventions: NRCS:shmu:1.0
 ```
 
 ## Purpose
@@ -18,38 +19,15 @@ future reference.~~ sending the data to the Soil Health Division for reporting.
 
 ## Specification
 
-Soil tests MUST be recorded as a "Lab test" (`lab_test`) log. The "Test type"
-(`lab_test_type`) field MUST be set to "Soil test" (`soil`).
+This inherits all of the rules of the inherited convention farmOS:soil-test:1.0, with the folowing exceptions.
 
-The "Timestamp" (`timestamp`) field of the log MUST be the date when the
-sample(s) were collected. The "Received date" (`lab_received_date`) field MAY
-contain the date when the lab received the sample, and the "Processed date"
-(`lab_processed_date`) MAY contain the date when the lab processed the sample.
+The label should be one of the allowed labels listed below, or it should be the csv column header from the lab:
+- Soil Organic Carbon
+- Wet Macro-Aggregate Stability
+- Respiration
+- Active Carbon
+- Bioavailable Nitrogen using ACE Protien
+- Microbial Diversity using PFLA
 
-Test results MUST be recorded as quantities referenced by the log's "Quantities"
-(`quantity`) field, and the quantity type MUST be "Test" (`test`). The quantity
-"Value" (`value`) and "Units" (`units`) MUST match the values/units returned by
-the lab. Each quantity SHOULD include the laboratory testing method used to
-obtain the value in the "Test method" (`test_method`) field. Quantities MAY
-include a "Label" (`label`), and if they do then it SHOULD match the machine
-name or CSV column header from the lab, or if that is not available then the
-human-readable label included in the lab results report. Quantities MAY include
-a "Measure" (`measure`), but no guidance is provided for recommended measures at
-this time.
-
-Lab test logs SHOULD reference the lab that performed the tests in the
-"Laboratory" (`lab`) field. The referenced lab will be a taxonomy term that MAY
-include additional information about the lab.
-
-Lab test logs MAY include the location(s) that sample(s) were collected from in
-the "Geometry" (`geometry`) field. If a single GPS point is used, then it is
-assumed that the sample was collected from that point. If multiple GPS points
-are used, then it is assumed that multiple sample(s) were collected and mixed
-together into a single sample before being sent to the lab. If a polygon is
-used, then it is assumed that granular point locations are not available, and
-the results should be broadly interpretted for the whole area. Other geometry
-types SHOULD NOT be used.
-
-In addition to specific geometries, Lab test logs MAY also reference specific
-Land (or other) assets in the "Location" (`location`) field to indicate where
-the sample(s) were collected from for easier searching/filtering purposes.
+Lab test logs MUST also reference specific SHMU assets in the "Location" (`location`) field to indicate where
+the sample(s) were collected from for easier searching/filtering purposes. See related convention: NRCS:shmu:1.0
