@@ -14,8 +14,7 @@ related_conventions: NRCS:shmu:1.0
 ## Purpose
 
 CEMA 216 Soil Tests are used to represent the act of collecting a soil sample, sending
-it to a soil testing lab, receiving test results back, and ~~storing data for
-future reference.~~ sending the data to the Soil Health Division for reporting. 
+it to a soil testing lab, receiving test results back, and sending the data to the Soil Health Division for reporting. 
 
 ## Specification
 
