@@ -32,4 +32,4 @@ A common land use must be specified using one of the following labels:
 - Water
 - Associated Agriculture Lands
 
-See related convention: NRCS:shmu:1.0
+A single defined land owner or manager
