@@ -21,6 +21,7 @@ A PLU is a unique geographic area, defined by a polygon, that has common land us
 This inherits all of the rules of the inherited convention farmOS:land-asset:1.0, with the folowing exceptions.
 
 The polygon must be defined.
+
 A common land use must be specified using one of the following labels:
 - Crop
 - Forest
@@ -31,6 +32,4 @@ A common land use must be specified using one of the following labels:
 - Water
 - Associated Agriculture Lands
 
-
-Lab test logs MUST also reference specific SHMU assets in the "Location" (`location`) field to indicate where
-the sample(s) were collected from for easier searching/filtering purposes. See related convention: NRCS:shmu:1.0
+See related convention: NRCS:shmu:1.0
