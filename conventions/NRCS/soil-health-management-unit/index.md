@@ -6,7 +6,7 @@
 convention_id: "NRCS:soil-health-management-unit:1.0"
 dependencies:
 inherits_from:
-  - farmOS:land-asset:1.0
+  - farmOS:land:1.0
   - nrcs:planning-land-unit:1.0
 ```
 
@@ -21,7 +21,7 @@ Soil Health Management Unit (SHMU) is one or more planning land units with simil
 
 This inherits all of the rules of the inherited convention nrcs:planning-land-unit:1.0, with the folowing exceptions.
 
-Specifies similar qualities for one or more of the following categories:
+Specifies similar qualities for one or more of the following categories regarding soil:
 - interpretations for use
 - drainage class
 - hydrologic group
@@ -30,4 +30,4 @@ Specifies similar qualities for one or more of the following categories:
 
 Specifies similar qualities in all of the management categories:
 - crops and live stock grown
-- kinds, amounts, and frequency
+- kinds, amounts, and frequency of inputs
