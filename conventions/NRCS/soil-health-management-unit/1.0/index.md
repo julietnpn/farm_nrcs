@@ -27,9 +27,9 @@ Soil Health Management Unit (SHMU) is one or more planning land units with simil
 
 ## Specification
 
-This inherits all of the rules of the inherited convention farmOS:land:1.0, with the following exceptions.
+This inherits all of the rules of the inherited convention `farmOS:land:1.0`, with the following exceptions.
 
-Land assets MUST include a polygon that represents their geographic boundaries in the "Intrinsic geometry" (intrinsic geometry) field.
+Land assets MUST include a polygon that represents their geographic boundaries in the "Intrinsic geometry" (`intrinsic geometry`) field.
 
 A common land use must be specified using one of the following labels:
 - Crop
