@@ -22,12 +22,14 @@ Soil Health Management Unit (SHMU) is one or more planning land units with simil
   - https://www.nrcs.usda.gov/sites/default/files/2022-10/FY23_DIA%20162_Soil%20Health%20Management%20System%20Design.pdf
 - SHMUs are used in CEMA 216 dated 10/22/2022:
   - https://www.nrcs.usda.gov/sites/default/files/2022-10/FY23_CEMA%20216_Soil%20Health%20Testing.pdf
+- SHMUs are used in the Soil Health Demo Trials, dated 07/2022
+  - https://cig.sc.egov.usda.gov/sites/default/files/2022-07/shdt_min_data_set_requirements_4722.pdf
 
 ## Specification
 
 This inherits all of the rules of the inherited convention farmOS:land:1.0, with the following exceptions.
 
-The polygon must be defined.
+Land assets MUST include a polygon that represents their geographic boundaries in the "Intrinsic geometry" (intrinsic geometry) field.
 
 A common land use must be specified using one of the following labels:
 - Crop
