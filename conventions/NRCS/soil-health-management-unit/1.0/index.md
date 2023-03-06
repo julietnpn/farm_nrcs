@@ -45,7 +45,8 @@ A single land owner or manager must be defined in a notes field.
 
 Specifies similar qualities for one or more of the following categories regarding soil:
 - interpretations for use
-- drainage class
+- drainage class 
+  - Would this be the WSS/SSURGO defintions of soil drainage? Very Poorly Drained, Poorly Drained, Somewhat Poorly Drained, Moderately Well Drained, Well Drained, Somewhat Excessively Drained, Excessively Drained, Saturated Muck, Well Drained Muck
 - hydrologic group
 - ecological site
 - soil health / organic matter
