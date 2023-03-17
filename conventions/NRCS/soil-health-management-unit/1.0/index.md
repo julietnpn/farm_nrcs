@@ -27,11 +27,22 @@ Soil Health Management Unit (SHMU) is one or more planning land units with simil
 
 ## Specification
 
+### Geometry and ownership 
 This inherits all of the rules of the inherited convention `farmOS:land:1.0`, with the following exceptions.
 
-Land assets MUST include a polygon that represents their geographic boundaries in the "Intrinsic geometry" (`intrinsic geometry`) field.
+SHMU assets MUST include a polygon that represents their geographic boundaries in the "Intrinsic geometry" (`intrinsic geometry`) field.
 
-A common land use must be specified using one of the following labels:
+SHMU asset MAY include at Type with the following labels:
+- No Soil Health Practice Applied
+- Soil Health Practice Applied
+
+A single land owner or manager must be defined in a notes field.
+
+
+### Land Use
+SHMU asset MAY include a Type Narrative (free response string).
+
+A single land use MUST be specified using one of the following labels:
 - Crop
 - Forest
 - Range
@@ -41,8 +52,21 @@ A common land use must be specified using one of the following labels:
 - Water
 - Associated Agriculture Lands
 
-A single land owner or manager must be defined in a notes field.
+One or more land use modifier MUST be specified using the following modifiers:
+- None
+- Drained
+- Grazed
+- Hayed
+- Irrigated
+- Organic
+- Other
+- Protected
+- Water Feature
+- Wildlife
 
+Depending on specified land use, collect the following soil property data.
+
+#### Land Use - Crop Land
 Specifies similar qualities for one or more of the following categories regarding soil:
 - interpretations for use
 - drainage class 
@@ -55,6 +79,8 @@ Specifies similar qualities in all of the management categories:
 - crops and live stock grown
 - kinds, amounts, and frequency of inputs
 
+
+#### Land Use - Range Land
 
 ## Notable implementations
 
