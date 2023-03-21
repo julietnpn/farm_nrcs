@@ -64,20 +64,81 @@ One or more land use modifier MUST be specified using the following modifiers:
 - Water Feature
 - Wildlife
 
+One or more soil interpretations for MUST be specified in a free response text box. 
+
+One or more soil drainage classes MUST be specified from the following list specified by SSURGO:
+- Very Poorly Drained
+- Poorly Drained
+- Somewhat Poorly Drained
+- Moderately Well Drained
+- Well Drained
+- Somewhat Excessively Drained
+- Excessively Drained
+- Saturated Muck
+- Well Drained Muck
+- Unknown
+
+One or more hydrologic groups MUST be specified from the following list specified by NRCS National Engineering Handbook Part 630 Chapter 7 (https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=22526.wba):
+- Group A
+- Group B
+- Group C
+- Group D
+- Group A/D
+- Group B/D
+- Group C/D
+
+One or more ecological site ID  MUST be specified in a free response text box following the conventions defined in the National Ecological Site Handbook ([H_190_NESH_630-633)](https://www.nrcs.usda.gov/sites/default/files/2022-09/NESH_1.pdf)).
+
+An Organic Matter indicator MUST be specified in ...
+
+One or more site limitations actively being addressed MUST be selected from the following labels:
+- None
+- Poor Drainage
+- Poor Organic matter
+- etc (waiting to hear back on list)
+
+One or more site limitations not being addressed MUST be selected from the following labels:
+- None
+- Poor Drainage
+- Poor Organic matter
+- etc (waiting to hear back on list)
+
+One or more resource concern may be specified from the following labels, from the National Resource Concern List
+and Planning Criteria:
+- Air
+- Animal
+- Energy
+- Human
+- Plants
+- Soil
+- Water
+
+One or more specific resource concerns MUST be specified from the following labels, from the National Resource Concern List
+and Planning Criteria:
+- none
+- Aggregate Stability .. etc
+
 Depending on specified land use, collect the following soil property data.
 
 #### Land Use - Crop Land
-Specifies similar qualities for one or more of the following categories regarding soil:
-- interpretations for use
-- drainage class 
-  - Would this be the WSS/SSURGO defintions of soil drainage? Very Poorly Drained, Poorly Drained, Somewhat Poorly Drained, Moderately Well Drained, Well Drained, Somewhat Excessively Drained, Excessively Drained, Saturated Muck, Well Drained Muck
-- hydrologic group
-- ecological site
-- soil health / organic matter
 
-Specifies similar qualities in all of the management categories:
-- crops and live stock grown
-- kinds, amounts, and frequency of inputs
+One or more livestock grown on the land MAY be specified from the following labels:
+- ..
+
+One or more crop grown on the land MAY be specified from the following labels, and must be situated in a crop rotation. Should include cover crops from the following lables. Should be specified for all years of the agreement.
+- crop list
+- cover crop list (cover crop councils')
+
+One or more inputs CAN be specified and MUST be assocated with an amount, frequency, and kind from the following lables.
+- Fertilizer
+- Pesticide
+- Irrigation
+- Ammendments
+- ...
+
+The current and previous tillage practices MAY be specified from the following labels, and must include number of years technique was included.:
+- tbd
+
 
 
 #### Land Use - Range Land
