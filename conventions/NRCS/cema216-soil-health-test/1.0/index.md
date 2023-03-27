@@ -20,13 +20,19 @@ it to a soil testing lab, receiving test results back, and sending the data to t
 
 This inherits all of the rules of the inherited convention farmOS:soil-test:1.0, with the folowing exceptions.
 
-The label should be one of the allowed labels listed below, or it should be the csv column header from the lab:
+The label MUST be one of the allowed labels listed below and adhere to the test method specified by the Modus Test ID:
 - Soil Organic Carbon
+  - Modus Test ID:
 - Wet Macro-Aggregate Stability
+  - Modus Test ID:
 - Respiration
+  - Modus Test ID:
 - Active Carbon
-- Bioavailable Nitrogen using ACE Protien
+   - Modus Test ID:
+- Bioavailable Nitrogen using ACE Protein
+  - Modus Test ID:
 - Microbial Diversity using PFLA
+  - Modus Test ID:
 
 Lab test logs MUST also reference specific SHMU assets in the "Location" (`location`) field to indicate where
 the sample(s) were collected from for easier searching/filtering purposes. See related convention: NRCS:shmu:1.0
