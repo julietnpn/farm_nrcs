@@ -28,7 +28,7 @@ it to a soil testing lab, receiving test results back, and sending the data to t
 
 This inherits all of the rules of the inherited convention farmOS:soil-test:1.0, with the folowing exceptions.
 
-The label MUST be one of the allowed labels listed below and adhere to the test method specified by the Modus Test ID:
+The label MUST be one of the allowed labels listed below and adhere to the test method specified by the Modus Test ID of any Land Grant University that conducts this test method:
 - phosphorus
   - Modus Test ID:
 - potassium
