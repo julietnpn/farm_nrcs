@@ -21,14 +21,12 @@ it to a soil testing lab, receiving test results back, and sending the data to t
 - Comprhensive Chemical Analyses are used in CEMA 216 dated 10/22/2022:
   - https://www.nrcs.usda.gov/sites/default/files/2022-10/FY23_CEMA%20216_Soil%20Health%20Testing.pdf
 
-- Comprhensive Chemical Analyses are used in CEMA 217 dated 10/22/2022:?
-  - 
 
 ## Specification
 
 This inherits all of the rules of the inherited convention farmOS:soil-test:1.0, with the folowing exceptions.
 
-The label MUST be one of the allowed labels listed below and adhere to the test method specified by the Modus Test ID of any Land Grant University that conducts this test method:
+The label MUST be one of the allowed labels listed below and SHOULD adhere to the test method specified by the Modus Test ID of any method in the [Kellogg Lab Method Standard](https://www.nrcs.usda.gov/sites/default/files/2022-10/SSIR42-v6-pt1.pdf):
 - phosphorus
   - Modus Test ID:
 - potassium
